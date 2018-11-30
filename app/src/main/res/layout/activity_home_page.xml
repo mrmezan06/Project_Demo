@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lock"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".HomePage">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="@color/colorAccent"
+            android:textColor="#ff2"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:background="#ffff"
+            android:layout_width="200dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:hint="Enter Admin Email"
+            android:id="@+id/adminemailtxt"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="@color/colorAccent"
+            android:textColor="#ff2"
+            android:padding="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:background="#ffff"
+            android:layout_width="200dp"
+            android:textAlignment="center"
+
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Enter Admin Password"
+            android:id="@+id/adminpasstxt"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6507a9"
+        android:textColor="#fff"
+        android:text="Admin Login"
+        android:id="@+id/adminlogbtn"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:background="#00ff00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Login"
+        android:id="@+id/userlogbtn"
+        />
+
+</LinearLayout>

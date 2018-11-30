@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MY BANK</string>
+    <string name="about">
+        Md. Mejanur Rahman Akash\n
+        Dept. of CSE\n
+        KUET-2K16\n
+        Contact: 01786995549\n
+        Email: mrmezan06@gmail.com
+    </string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
